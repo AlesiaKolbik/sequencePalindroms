@@ -12,7 +12,7 @@ public class Sequence {
     Sequence() {
     }
 
-    public void fillArray() {
+    public void readData() {
         Scanner scanner=new Scanner(System.in);
         out.println("Введите возрастающую последовательность:");
         String input=scanner.nextLine();
