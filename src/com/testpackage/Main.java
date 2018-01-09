@@ -5,9 +5,10 @@ package com.testpackage;
 public class Main {
 
     public static void main(String[] args) {
-        Sequence numbers=new Sequence();
-        numbers.readData();
-        String[] even=numbers.sortOfParity();  //задача отсортировать последовательность сначала четные, поом все остальные.
-        numbers.print(even);
+        OrderedSequence sequence=new OrderedSequence(25);
+        sequence.readData();
+        sequence.sortAscending();
+        String[] newSequence=sequence.findAndAddNumber();
+        sequence.print(newSequence);
     }
 }

@@ -1,12 +1,12 @@
 package com.testpackage;
 
-import java.util.ArrayList;
+
 import java.util.Scanner;
 
 import static java.lang.System.out;
 
 public class Sequence {
-    private String[] array;
+    protected String[] array;
 
 
     Sequence() {
